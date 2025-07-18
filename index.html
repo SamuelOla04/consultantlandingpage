@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Carter</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS (Animate on Scroll) CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+<!-- THIS IS THE NEW ELEMENT FOR THE PARALLAX BACKGROUND -->
+<div class="parallax-bg"></div>
+
+<div class="page-wrapper">
+
+    <header>
+        <div class="container navbar">
+            <a href="#" class="logo">Alex Carter</a>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact" class="nav-button">Book Consultation</a></li>
+                </ul>
+            </nav>
+            <!-- (1) ADD THIS HAMBURGER BUTTON -->
+            <button class="hamburger-menu" aria-label="Open navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- ... ALL YOUR MAIN CONTENT REMAINS THE SAME ... -->
+        <!-- hero, sliding-stats, about, why-choose-us, services, testimonials, final-cta -->
+        
+        <section class="hero">
+            <div class="container">
+                <h1>Outrank Your Competitors<br>Capture More Customers</h1>
+                <p>Stop guessing and start ranking. I deliver your personal, data-driven SEO roadmap to boost visibility, drive high-quality traffic, and convert visitors into loyal customers.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="cta-btn primary">Schedule a Consultation</a>
+                    <a href="#services" class="cta-btn secondary">Explore My Services</a>
+                </div>
+                <div class="hero-image-container">
+                    <img src="hero.jpg" alt="SEO consultant analyzing data to increase customer acquisition">
+                </div>
+            </div>
+        </section>
+        
+        <section class="sliding-stats-section">
+            <div class="container" data-aos="fade-up">
+                <h2 class="stats-tagline">My Proven Track Record</h2>
+            </div>
+            <div class="stats-ticker-wrap" data-aos="fade-up">
+                <div class="stats-ticker">
+                    <div class="stat-element"><h3>+300%</h3><p>Organic Traffic Increase</p></div>
+                    <div class="stat-element"><h3>95%</h3><p>Client Retention Rate</p></div>
+                    <div class="stat-element"><h3>10x</h3><p>Average Client ROI</p></div>
+                    <div class="stat-element"><h3>150+</h3><p>Successful Projects</p></div>
+                    <div class="stat-element" aria-hidden="true"><h3>+300%</h3><p>Organic Traffic Increase</p></div>
+                    <div class="stat-element" aria-hidden="true"><h3>95%</h3><p>Client Retention Rate</p></div>
+                    <div class="stat-element" aria-hidden="true"><h3>10x</h3><p>Average Client ROI</p></div>
+                    <div class="stat-element" aria-hidden="true"><h3>150+</h3><p>Successful Projects</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-image-col" data-aos="fade-right">
+                        <img src="about.jpg" alt="Photo of Alex Carter, SEO Consultant">
+                    </div>
+                    <div class="about-content-col" data-aos="fade-left" data-aos-delay="200">
+                        <span class="about-tagline">WHO I AM</span>
+                        <h2>Your Dedicated SEO Growth Partner</h2>
+                        <p class="about-description">I'm Alex Carter, an independent SEO consultant with over 8 years of hands-on experience in the trenches of digital marketing.</p>
+                        <p class="about-description">My entire focus is on cutting through the industry fluff to deliver custom SEO strategies that drive measurable, long-term growth.</p>
+                        <p class="about-description">I specialize in technical audits, content strategy, and authority building to ensure you don't just rank—you dominate your market.</p>
+                        <a href="#contact" class="cta-btn primary about-cta-btn">Let's Work Together</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us-section">
+            <div class="container" data-aos="fade-up">
+                <h2>WHY WORK <span class="highlight">ALONGSIDE ME</span></h2>
+                <p class="section-description">
+                    I'm more than just a consultant; I'm your partner in growth. My approach is built on a foundation of transparency, expertise, and a relentless focus on delivering the tangible results your business deserves.
+                </p>
+            </div>
+            
+            <div class="pills-ticker-wrap" data-aos="fade-up">
+                <div class="pills-ticker">
+                    <div class="reason-pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>Data-Driven SEO Strategies</span></div>
+                    <div class="reason-pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>A True Partnership for Growth</span></div>
+                    <div class="reason-pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>Custom Roadmaps, Not Templates</span></div>
+                    <div class="reason-pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>Transparent, No-Fluff Reporting</span></div>
+                    <div class="reason-pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>Proven Results & Measurable ROI</span></div>
+                    <div class="reason-pill"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>Focus on Long-Term Success</span></div>
+                    <!-- Duplicate items for seamless loop -->
+                    <div class="reason-pill" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>Data-Driven SEO Strategies</span></div>
+                    <div class="reason-pill" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>A True Partnership for Growth</span></div>
+                    <div class="reason-pill" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>Custom Roadmaps, Not Templates</span></div>
+                    <div class="reason-pill" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>Transparent, No-Fluff Reporting</span></div>
+                    <div class="reason-pill" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>Proven Results & Measurable ROI</span></div>
+                    <div class="reason-pill" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" /></svg><span>Focus on Long-Term Success</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section" id="services">
+            <div class="container" data-aos="fade-up">
+                <span class="about-tagline">What I Do</span>
+                <h2>Results, Not Reports</h2>
+                <p class="services-description">My approach is built on core pillars designed to create a powerful, sustainable SEO foundation that drives real business outcomes for my clients.</p>
+                <div class="services-card-grid">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="50">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" /></svg></div>
+                        <h3>Technical SEO</h3>
+                        <p>I find and fix critical site issues, ensuring a rock-solid foundation for search engines to crawl and index your site effectively.</p>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" /></svg></div>
+                        <h3>Content & Keyword Strategy</h3>
+                        <p>I develop a content strategy that answers user questions, establishes authority, and captures high-intent traffic for your business.</p>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="150">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" /></svg></div>
+                        <h3>Authority & Link Building</h3>
+                        <p>I build your site's credibility with high-quality, relevant backlinks that signal trust to Google and drive referral traffic.</p>
+                    </div>
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg></div>
+                        <h3>Local SEO</h3>
+                        <p>I put your business on the map. From Google Business Profile optimization to local citations, I ensure local customers find you first.</p>
+                    </div>
+                     <div class="service-card" data-aos="fade-up" data-aos-delay="250">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c.51 0 .962-.328 1.093-.828l2.857-7.143a.75.75 0 00-.704-1.042H5.5a.75.75 0 00-.703.525L2.94 7.5M7.5 14.25v-2.25m0 0l-1.09-4.086a.75.75 0 00-.704-.525H3.75m12 7.5h.008v.008h-.008v-.008zm-3 0h.008v.008h-.008v-.008z" /></svg></div>
+                        <h3>E-commerce SEO</h3>
+                        <p>Turn browsers into buyers. I optimize your product pages, category structure, and site architecture to drive qualified traffic and boost online sales.</p>
+                    </div>
+                     <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 013 19.875v-6.75zM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V8.625zM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 01-1.125-1.125V4.125z" /></svg></div>
+                        <h3>Data & Reporting</h3>
+                        <p>You get clear, transparent reports that track the KPIs that matter most to your bottom line, proving your ROI every step of the way.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section" id="testimonials">
+            <div class="container">
+                <div class="testimonials-header" data-aos="fade-up">
+                    <span class="about-tagline">Client Success Stories</span>
+                    <h2>Hear What My Clients Have To Say</h2>
+                    <p class="section-description">
+                        I'm proud to have partnered with incredible businesses to drive meaningful growth. Here's what some of them have to say about our work together.
+                    </p>
+                </div>
+                
+                <div class="testimonials-grid">
+                    <!-- CARD 1 -->
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="testimonial-stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                        </div>
+                        <h3>Mary J</h3>
+                        <p class="testimonial-role">Marketing Director</p>
+                        <p>Working with Alex was a game-changer. Our organic traffic skyrocketed over 300% in six months. His expertise is second to none.</p>
+                    </div>
+                    <!-- CARD 2 -->
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="testimonial-stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                        </div>
+                        <h3>Tony P</h3>
+                        <p class="testimonial-role">E-commerce Owner</p>
+                        <p>The ROI has been incredible. His technical audit found issues we'd missed for years, and we now outrank major competitors.</p>
+                    </div>
+                    <!-- CARD 3 -->
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="testimonial-stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                        </div>
+                        <h3>Jane B</h3>
+                        <p class="testimonial-role">Startup Founder</p>
+                        <p>Alex is more than a consultant; he's a true partner. The strategic roadmap he provided was clear, actionable, and drove tangible results.</p>
+                    </div>
+                    <!-- CARD 4 -->
+                    <div class="testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="testimonial-stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.116 3.986 1.24 5.381c.294 1.265-.933 2.25-2.005 1.623L12 18.354l-4.545 2.622c-1.072.627-2.3-.358-2.005-1.623l1.24-5.381L2.63 10.955c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.007z" clip-rule="evenodd" /></svg>
+                        </div>
+                        <h3>Bob B</h3>
+                        <p class="testimonial-role">Business CEO</p>
+                        <p>Our local search presence is stronger than ever. We saw an immediate increase in foot traffic and calls after his optimizations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="final-cta-section" id="contact">
+            <div class="container" data-aos="zoom-in">
+                <h2>Ready to Dominate the Rankings?</h2>
+                <p class="section-description">
+                    Stop leaving money on the table. Let's build a powerful SEO strategy that drives real, measurable growth for your business. Schedule your free, no-obligation consultation today.
+                </p>
+                <a href="#" class="cta-btn primary">Book Consultation</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <!-- ... ALL YOUR FOOTER CONTENT REMAINS THE SAME ... -->
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about" data-aos="fade-up">
+                    <a href="#" class="logo">Alex Carter</a>
+                    <p>Your dedicated partner in achieving digital dominance through data-driven, strategic SEO.</p>
+                </div>
+                <div class="footer-links" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="#">Email Me</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 Alex Carter. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<!-- AOS (Animate on Scroll) JS -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<!-- AOS Init Script -->
+<script>
+  AOS.init({
+    duration: 800, // Animation duration in milliseconds
+    once: true,    // Whether animation should happen only once - while scrolling down
+    offset: 100,   // Offset (in px) from the original trigger point
+  });
+</script>
+
+<!-- (2) ADD THIS SCRIPT FOR THE HAMBURGER MENU -->
+<script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const nav = document.querySelector('header nav');
+
+    hamburgerMenu.addEventListener('click', () => {
+        const isExpanded = hamburgerMenu.getAttribute('aria-expanded') === 'true';
+        hamburgerMenu.setAttribute('aria-expanded', !isExpanded);
+        nav.classList.toggle('nav-open');
+        hamburgerMenu.classList.toggle('active');
+        // Prevent body from scrolling when the menu is open
+        document.body.classList.toggle('no-scroll');
+    });
+
+    // Close menu when a navigation link is clicked
+    const navLinks = document.querySelectorAll('header nav a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (nav.classList.contains('nav-open')) {
+                hamburgerMenu.setAttribute('aria-expanded', 'false');
+                nav.classList.remove('nav-open');
+                hamburgerMenu.classList.remove('active');
+                document.body.classList.remove('no-scroll');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
